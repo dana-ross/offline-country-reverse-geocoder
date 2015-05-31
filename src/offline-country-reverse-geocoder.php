@@ -1,7 +1,5 @@
 <?php
 
-namespace com\davidmichaelross\country_reverse_geocoder;
-
 function countries_array() {
 
 	static $country_data;

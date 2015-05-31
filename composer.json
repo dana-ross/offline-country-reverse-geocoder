@@ -1,16 +1,21 @@
 {
-    "name": "daveross/offline-country-reverse-geocoder",
-    "require": {
-        "php": ">=5.3",
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~3.7.10"
-    },
-    "license": "Creative Commons Attribution-Share Alike License",
-    "authors": [
-        {
-            "name": "Dave Ross",
-            "email": "dave@davidmichaelross.com"
-        }
-    ]
+  "name": "daveross/offline-country-reverse-geocoder",
+  "require": {
+    "php": ">=5.3",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7.10"
+  },
+  "license": "Creative Commons Attribution-Share Alike License",
+  "authors": [
+    {
+      "name": "Dave Ross",
+      "email": "dave@davidmichaelross.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "OfflineCountryReverseGeocoder": "src/"
+    }
+  }
 }
