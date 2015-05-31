@@ -1,0 +1,7 @@
+<phpunit bootstrap="offline-country-reverse-geocoder.php">
+	<testsuites>
+		<testsuite name="all">
+			<directory>tests/php</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
