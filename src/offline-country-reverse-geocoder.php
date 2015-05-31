@@ -12,11 +12,11 @@ function countries_array() {
 		while ( ! feof( $fh ) ) {
 
 			$row = fgets( $fh );
-			if(0 === strlen($row)) {
+			if ( 0 === strlen( $row ) ) {
 				continue;
 			}
 
-			$row = trim($row);
+			$row = trim( $row );
 			list( $country_code, $data ) = explode( '=', $row, 2 );
 			list( $polygon_type, $data ) = explode( ' ', $data, 2 );
 			$data = trim( $data );
@@ -68,6 +68,20 @@ function pointInPolygon( $targetX, $targetY, $points_string, $country_code ) {
 	foreach ( $points as $point ) {
 
 		list( $pointX, $pointY ) = explode( ' ', $point );
+
+		/**
+		 * Performance optimization:
+		 * If the first pair of coordinates are more than 90deg
+		 * (1/4 of the Earth's circumference) in any direction,
+		 * the answer is "no".
+		 */
+		if ( $targetY && ( intval( abs( $pointY - $targetY ) ) > 90 ) ) {
+			return false;
+		}
+		if ( $targetX && ( intval( abs( $pointX - $targetX ) ) > 90 ) ) {
+			return false;
+		}
+
 		$polyX[] = doubleval( $pointX );
 		$polyY[] = doubleval( $pointY );
 
