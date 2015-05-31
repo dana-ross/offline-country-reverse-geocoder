@@ -113,8 +113,3 @@ function get_country( $targetX, $targetY ) {
 	return '';
 
 }
-
-// Washington, DC (US)
-//echo "Washington DC: " . get_country(-77.0164, 38.9047) . "\n";
-// Chicago
-//echo "Chicago: " . get_country(-87.6847, 41.8369) . "\n";
