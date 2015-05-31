@@ -2,7 +2,7 @@
 
 Determine which country a lat/long point falls in
 
-Essentially a PHP fork of https://raw.githubusercontent.com/bencampion/reverse-country-code
+Essentially a PHP fork of https://github.com/bencampion/reverse-country-code
 
 ##Dataset
 
