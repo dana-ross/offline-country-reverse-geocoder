@@ -10,7 +10,7 @@ function countries_array() {
 
 		$country_data = array();
 
-		$fh = fopen( 'polygons.properties', 'r' );
+		$fh = fopen( __DIR__ . '/polygons.properties', 'r' );
 		while ( ! feof( $fh ) ) {
 
 			$row = fgets( $fh );
