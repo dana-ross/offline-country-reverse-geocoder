@@ -1,0 +1,8 @@
+{
+  "name": "offline-country-reverse-geocoder",
+  "type": "library",
+  "require": {
+    "php": ">=5.3",
+    "phpunit/phpunit": "~3.7.10"
+  }
+}
