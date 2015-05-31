@@ -1,4 +1,4 @@
-# offline-country-reverse-geocoder
+# offline-country-reverse-geocoder [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
 
 Determine which country a lat/long point falls in
 
