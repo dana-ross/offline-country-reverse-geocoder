@@ -108,18 +108,18 @@ function pointInPolygon( $targetX, $targetY, $points_string, $country_code ) {
 /**
  * Get the country code for a pair of lat/long coordinates
  *
- * @param double $targetX
- * @param double $targetY
+ * @param double $longitude decimal longitude
+ * @param double $latitude decimal latitude
  *
- * @return string
+ * @return string country code or empty
  */
-function get_country( $targetX, $targetY ) {
+function get_country( $longitude, $latitude ) {
 
 	$countries = countries_array();
 
 	foreach ( $countries as $country ) {
 		list( $country_code, $country_boundary ) = $country;
-		if ( pointInPolygon( $targetX, $targetY, $country_boundary, $country_code ) ) {
+		if ( pointInPolygon( $longitude, $latitude, $country_boundary, $country_code ) ) {
 			return $country_code;
 		}
 	}
