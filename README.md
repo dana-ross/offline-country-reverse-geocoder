@@ -37,4 +37,8 @@ This library uses the world borders dataset from [thematicmapping.org](http://th
 
 ##License
 
-This library is released under a [Creative Commons Attribution-Share Alike License](http://creativecommons.org/licenses/by-sa/3.0/).
+All code is [MIT licensed](http://daveross.mit-license.org/
+
+See [why I contribute to open source software](https://davidmichaelross.com/blog/contribute-open-source-software/).
+
+The data file src/polygons.properties is available under a [Creative Commons Attribution-Share Alike License](http://creativecommons.org/licenses/by-sa/3.0/) in accordance with the license from https://github.com/bencampion/reverse-country-code
