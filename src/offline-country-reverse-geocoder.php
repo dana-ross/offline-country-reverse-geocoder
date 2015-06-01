@@ -2,7 +2,10 @@
 
 namespace DaveRoss\OfflineCountryReverseGeocoder;
 
-class FileException extends \Exception {};
+class FileException extends \Exception {
+}
+
+;
 
 /**
  * Retrieve an array of country codes & the corresponding coordinates
@@ -122,7 +125,7 @@ function pointInPolygon( $targetX, $targetY, $points_string, $country_code ) {
  * Get the country code for a pair of lat/long coordinates
  *
  * @param double $longitude decimal longitude
- * @param double $latitude decimal latitude
+ * @param double $latitude  decimal latitude
  *
  * @return string country code or empty
  */
