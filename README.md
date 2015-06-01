@@ -12,6 +12,15 @@ Essentially a PHP fork of https://github.com/bencampion/reverse-country-code
 composer require daveross/offline-country-reverse-geocoder:~1.0.0
 ```
 
+or add the dependency to your composer.json file manually:
+
+```
+"require": {
+	"php": ">=5.3",
+	"daveross/offline-country-reverse-geocoder": "~1.0.0"
+}
+```
+
 ## Examples
 
 ```
