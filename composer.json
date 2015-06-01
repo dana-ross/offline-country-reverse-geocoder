@@ -15,8 +15,6 @@
     }
   ],
   "autoload": {
-    "psr-0": {
-      "DaveRoss\\OfflineCountryReverseGeocoder\\": "src"
-    }
+    "files": ["src/offline-country-reverse-geocoder.php"]
   }
 }
