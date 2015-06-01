@@ -23,6 +23,10 @@ or add the dependency to your composer.json file manually:
 }
 ```
 
+### Without Composer
+
+Copy this library's files to wherever you put third-party libraries in your application. Include `src/offline-country-reverse-geocoder.php` from this library, and it'll load `polygons.properties` from the same directory.
+
 ## Examples
 
 ```
