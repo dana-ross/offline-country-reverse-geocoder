@@ -1,5 +1,7 @@
 <?php
 
+namespace DaveRoss\OfflineCountryReverseGeocoder;
+
 function countries_array() {
 
 	static $country_data;
