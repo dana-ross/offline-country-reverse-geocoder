@@ -1,8 +1,8 @@
 # offline-country-reverse-geocoder [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
 
-Determine which country a lat/long point falls in
+Determine which country a latitude/longitude point falls in without needing to connect to an API. All processing is done locally using a dataset of country borders.
 
-Essentially a PHP fork of https://github.com/bencampion/reverse-country-code
+Uses the data file from https://github.com/bencampion/reverse-country-code
 
 ## Installing
 
