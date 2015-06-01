@@ -1,4 +1,4 @@
-# Offline Country Geocoder [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
+# Offline Country Reverse Geocoder [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
 
 Determine which country a latitude/longitude point falls in without needing to connect to an API. All processing is done locally using a dataset of country borders.
 
