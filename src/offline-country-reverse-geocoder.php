@@ -76,7 +76,7 @@ function countries_array() {
  *
  * @see http://alienryderflex.com/polygon/
  */
-function pointInPolygon( $targetX, $targetY, $points_string, $country_code ) {
+function pointInPolygon( $targetX, $targetY, $points_string ) {
 
 	$points      = explode( ',', $points_string );
 	$polyCorners = count( $points );
