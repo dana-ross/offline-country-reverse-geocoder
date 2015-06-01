@@ -1,4 +1,6 @@
-# Offline Country Reverse Geocoder [![Latest Stable Version](https://poser.pugx.org/daveross/offline-country-reverse-geocoder/v/stable)](https://packagist.org/packages/daveross/offline-country-reverse-geocoder) [![License](https://poser.pugx.org/daveross/offline-country-reverse-geocoder/license)](https://packagist.org/packages/daveross/offline-country-reverse-geocoder) [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
+# Offline Country Reverse Geocoder
+
+[![Latest Stable Version](https://poser.pugx.org/daveross/offline-country-reverse-geocoder/v/stable)](https://packagist.org/packages/daveross/offline-country-reverse-geocoder) [![License](https://poser.pugx.org/daveross/offline-country-reverse-geocoder/license)](https://packagist.org/packages/daveross/offline-country-reverse-geocoder) [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
 
 Determine which country a latitude/longitude point falls in, returning an [ISO 3166-1](https://en.m.wikipedia.org/wiki/ISO_3166-1_alpha-2) two letter country code. All processing is done locally using a dataset of country borders without needing to connect to an API.
 
