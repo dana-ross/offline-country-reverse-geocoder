@@ -1,6 +1,6 @@
 # Offline Country Reverse Geocoder [![Build Status](https://travis-ci.org/daveross/offline-country-reverse-geocoder.svg?branch=master)](https://travis-ci.org/daveross/offline-country-reverse-geocoder)
 
-Determine which country a latitude/longitude point falls in without needing to connect to an API. All processing is done locally using a dataset of country borders.
+Determine which country a latitude/longitude point falls in, returning an [ISO 3166-1](https://en.m.wikipedia.org/wiki/ISO_3166-1_alpha-2) two letter country code. All processing is done locally using a dataset of country borders without needing to connect to an API.
 
 Uses the data file from https://github.com/bencampion/reverse-country-code
 
