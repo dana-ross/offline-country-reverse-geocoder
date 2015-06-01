@@ -37,7 +37,7 @@ This library uses the world borders dataset from [thematicmapping.org](http://th
 
 ##License
 
-All code is [MIT licensed](http://daveross.mit-license.org/
+All code is [MIT licensed](http://daveross.mit-license.org/)
 
 See [why I contribute to open source software](https://davidmichaelross.com/blog/contribute-open-source-software/).
 
