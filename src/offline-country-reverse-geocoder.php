@@ -2,8 +2,17 @@
 
 namespace DaveRoss\OfflineCountryReverseGeocoder;
 
+class FileException extends \Exception {};
+
+/**
+ * Retrieve an array of country codes & the corresponding coordinates
+ * for their borders.
+ * @return array
+ * @throws FileException
+ */
 function countries_array() {
 
+	// Memoize the data so its only read once
 	static $country_data;
 
 	if ( ! isset( $country_data ) ) {
@@ -11,6 +20,10 @@ function countries_array() {
 		$country_data = array();
 
 		$fh = fopen( __DIR__ . '/polygons.properties', 'r' );
+		if ( ! $fh ) {
+			throw new FileException( 'Could not open the polygons.properties file' );
+		}
+
 		while ( ! feof( $fh ) ) {
 
 			$row = fgets( $fh );
