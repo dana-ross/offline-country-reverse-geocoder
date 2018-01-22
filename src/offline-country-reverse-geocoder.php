@@ -86,7 +86,8 @@ function pointInPolygon( $targetX, $targetY, $points_string ) {
 	foreach ( $points as $point ) {
 
 		list( $pointX, $pointY ) = explode( ' ', $point );
-
+		$pointX = trim($pointX, '()');
+		$pointY = trim($pointY, '()');
 		/**
 		 * Performance optimization:
 		 * If the first pair of coordinates are more than 90deg
